@@ -1,0 +1,13 @@
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 26379
+jwt:
+  secret:
+    key: b54b5f966ce6c1d714a3ad1bf05f305b1e56882c3894f88efe035cd432510eec0b9f8bdaf0fbaa23504fd5df58b39f768fb3db538a49dfb568cc45ff4dd5b67b
+  access-token-validity: 36000000
+  refresh-token-validity: 432000000
+
+server:
+  port: 8083
