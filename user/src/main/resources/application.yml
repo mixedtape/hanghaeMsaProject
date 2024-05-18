@@ -1,0 +1,21 @@
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 26379
+  datasource:
+    url: jdbc:mysql://localhost:3306/market
+    username: root
+    password: siwon7096!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+    open-in-view: false
+jwt:
+  secret:
+
+server:
+  port: 9090
